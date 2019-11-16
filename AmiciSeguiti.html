@@ -1,0 +1,38 @@
+<style>
+  /* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+   #googleMap{
+      position: relative;
+      width: 95%;
+      padding-bottom: 120%;
+   }
+
+   #stampa{
+     word-wrap: break-word;
+   }
+
+   /* landscape */
+   @media screen and (orientation: landscape) {
+     /* landscape-specific styles */
+
+     #googleMap{
+       width: 95%;
+       padding-bottom: 33%;
+     }
+
+   }
+
+</style>
+    <div class="container">
+      <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="lista" class="btn btn-primary">visualizza lista</button>
+        <button id="mappa" class="btn btn-primary">visualizza mappa</button>
+        <br>
+        <div id="stampa"></div>
+        <div id="googleMap"></div>
+      </center>
+    </div>

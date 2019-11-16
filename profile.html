@@ -1,0 +1,71 @@
+
+<style>
+  /* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+   #mappaProfilo{
+      position: relative;
+      width: 95%;
+      padding-bottom: 90%;
+   }
+
+   #left_content{
+     word-wrap: break-word;
+   }
+
+   #ultimo_mex{
+     overflow: scroll;
+     max-height: 50px;
+   }
+
+   /* portrait */
+@media screen and (orientation: portrait) {
+  /* portrait-specific styles */
+
+}
+
+/* landscape */
+@media screen and (orientation: landscape) {
+  /* landscape-specific styles */
+
+  #left_content{
+    float:left;
+    margin-left: 5%;
+    width: 22%;
+    word-wrap: break-word;
+  }
+
+  #mappaProfilo{
+    float:right;
+    width: 70%;
+    padding-bottom: 38%;
+  }
+
+  #ultimo_mex{
+    overflow: scroll;
+    max-height: 90px;
+  }
+
+}
+
+</style>
+<div id="profil">
+  <div class="container">
+    <center>
+      <br>
+      <br>
+      <div id="left_content">
+        <br>
+        <button id="logout" class="btn btn-primary">Logout</button>
+        </script>
+        <br>
+        <br>
+        <div id="nome"></div>
+        <br>
+        <div id="ultimo_mex"></div>
+      </div>
+      <br>
+      <br>
+      <div id="mappaProfilo"></div>
+    </center>
+  </div>
+</div>
